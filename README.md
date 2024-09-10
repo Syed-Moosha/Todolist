@@ -1,5 +1,5 @@
 -Todo Application has been created using React CRUD functionlities.
--In this site you can add task title and task description once you created same action-item can be update the status as completed.
+-In this site you can add task title and task description once you created and task is completed same action-item can be update the status as completed.
 -Incase any changes in the task title/description same can be edit and save.
 -You can also delete the action-item which is created.
 

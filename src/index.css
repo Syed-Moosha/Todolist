@@ -1,0 +1,85 @@
+/* General Form Styles */
+form {
+    margin: 0 auto; /* Center the form */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px; /* Limit the width for larger screens */
+    padding: 20px;
+  }
+  
+  /* Input and Textarea Styles */
+  input,
+  textarea {
+    width: 100%; /* Make input and textarea responsive */
+    padding: 10px;
+    border: 1px solid #3A9E88;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  textarea {
+    height: 100px; /* Increased height for textarea */
+  }
+  
+  /* Button Styles */
+  button {
+    height: 40px;
+    padding: 0 10px;
+    font-size: 16px;
+    margin: 10px;
+  }
+  
+  /* Specific Button Styles */
+  button#addtask {
+    margin-top: 0;
+  }
+  
+  /* Filter Section */
+  .filterpart {
+    margin: 20px auto; /* Center the filter section */
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    gap: 20px;
+  }
+  
+  #filterselect {
+    background-color: #ff8182;
+    color: white;
+  }
+  
+  /* Card Container */
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Card Styles */
+  .card {
+    background-color: #ccf5d3;
+    border-radius: 4px;
+    border: 1px solid #3A9E88;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  
+  /* Status Label */
+  .statuslabel {
+    margin: 15px;
+  }
+  
+  #sts {
+    background-color: #12ae89;
+    color: white;
+  }
+  
+  /* Text Styles */
+  #h3, #p, #p1 {
+    margin: 10px;
+  }
+  
